@@ -135,8 +135,12 @@ body{
     margin: 0;
     margin-top: 0%;
     position: absolute;
+    display: flex;
+    z-index: 5;
 
   }
+
+  
   ul{
     width: 50%;
     height: 100%;
@@ -183,7 +187,7 @@ body{
   }
   .img{
     width: 100%;
-    height: 100%;
+    height: 50vw;
     margin: 0;
     object-fit: fill;
     position: fixed;
@@ -253,12 +257,159 @@ body{
 
 }
  
-.tesr{
+.second-background{
   width: 100%;
-  height: 1000px;
+  height: 50vw;
   z-index: 2;
+  margin: 0%;
   background-color: #D8D3C7;
 }
+.box1{
+  width: 35%;
+  height: 70%;
+  background-color: #00000076;
+  position: relative;
+  top: 10%;
+  left: 0%;
+  border-bottom-right-radius: 500px;  
+}
+.necklace{
+  width: 80%;
+  height: 90%;
+  position: relative;
+  object-fit: cover;
+  left: 30%;
+  top: 13%;
+}
+.necklace-text{
+  width: 50%;
+  height: 35%;
+  position: relative;
+  bottom: 65%;
+  float: right;
+  right: 5%;
+  background-color: #c6212100;
+  display: flex;
+}
+.necklace-h2{
+ text-align: center;
+ width: 100%;
+ font-size: 5vw;
+ color: #1e1b1b;
+ letter-spacing: 50%;
+}
+.necklace-info{
+  width: 80%;
+  height: 70%;
+  background-color: rgba(255, 0, 0, 0);
+  margin-top:19%;
+  position: absolute;
+  margin-left: 10%;
+  font-size: 1.5vw;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 300;
+  
+}
+.necklace-button{
+  width: 30%;
+  height: 3vw;
+  background-color: #1a1a1ae9;
+  font-size: 1vw;
+  position: absolute;
+  right: 35%;
+  top: 70%;
+  border: solid white 1px;
+  border-radius: 20px;
+  color: #D8D3C7;
+  cursor: pointer;
+}
+.necklace-button:hover{
+  background-color: rgb(74, 0, 0);
+  color: #D8D3C7;
+  transition: all ease-in-out 0.2s;
+  border: solid black 1px;
+}
+.necklace-video{
+  width: 40%;
+  height: 50%;
+  background-color: rgba(242, 242, 242, 0.649);
+  position: relative;
+  display: flex;
+  left: 55%;
+  bottom: 30%;
+
+}
+video {
+  width:120vw;
+  height: 100%;
+  object-fit: contain;
+  position: relative;
+  right: 14% ;
+  top: 8%;
+
+
+}
+a{
+  cursor: pointer;
+}
+.third-part{
+  width: 100%;
+  height: 49vw;
+  background-color: #D8D3C7;
+  margin: 0px;
+}
+.third-background{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0%;
+
+  object-fit: fill;
+}
+.black-cover{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom:101%;
+  background-color: rgba(0, 0, 0, 0.439);
+  
+
+}
+.square{
+  width: 30%;
+  height: 50%;
+  background-color: rgb(229, 229, 229);
+  position: absolute;
+  left: 35%;
+  top: 25%;
+  
+}
+.squareh4{
+  width: 80%;
+  height: fit-content;
+  margin-left: 15%;
+  margin-top: 22%;
+  font-size: 1.2vw;
+  text-transform: capitalize;
+
+}
+.squareh1{
+  width: 80%;
+  margin-left: 10%;
+  font-size: 3vw;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: -4%;
+}
+.squareh6{
+  width: 64%;
+  margin-left:16%;
+  font-size: 1vw;
+  text-align: justify;
+  margin-top: -2%;
+}
+
 
 
 
