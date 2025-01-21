@@ -216,7 +216,8 @@ body{
     position: relative;
     bottom: 4vw;
     left: 20%;
-    opacity: 70%;
+    cursor: default;
+    background-color: rgba(255, 0, 0, 0);
   }
  .left-button,.right-button{
   width: 60%;
@@ -228,6 +229,7 @@ body{
   border:solid white 2px ;
   color: #D8D3C7;
   background-color: #00000076;
+  opacity: 70%;
 }
 .box-button-right{
   left: 50%;
@@ -235,17 +237,20 @@ body{
   bottom: 10vw;
 }
 .right-button{
-  background-color: #d8d3c7a2;
+  background-color: #d8d3c7c6;
   border: solid 2px #1a1a1a;
   margin-left: 0%;
   margin-top: 4%;
   color: #1a1a1a;
 }
-.box-button-right:hover{
+.left-button:hover{
   opacity: 120%;
+  cursor: pointer;
 }
-.box-bottom:hover{
+.right-button:hover{
   opacity: 120%;
+  cursor: pointer;
+
 }
  
 .tesr{
