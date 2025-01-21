@@ -81,3 +81,62 @@ window.addEventListener('scroll', () => {
 });
 
 
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector('.tr-button').addEventListener('click', function() {
+        setLanguage('tr');
+    });
+
+    document.querySelector('.en-button').addEventListener('click', function() {
+        setLanguage('en');
+    });
+
+    function setLanguage(language) {
+        const elements = document.querySelectorAll('[data-lang]');
+
+        elements.forEach(function(element) {
+            const langKey = element.getAttribute('data-lang');
+            if (language === 'tr') {
+                element.textContent = translations[language][langKey] || element.textContent;
+            } else {
+                element.textContent = translations[language][langKey] || element.textContent;
+            }
+        });
+    }
+
+    const translations = {
+        en: {
+            'excellences': 'Excellences',
+            'searchText': 'What are you looking for?',
+            'earrings': 'Earings',
+            'bracelet': 'Bracelet',
+            'necklace': 'Necklace',
+            'piercing': 'Piercing',
+            'contact': 'Contact',
+            'startShopping': 'Start Shopping',
+            'exploreAccessories': 'Explore Accessories',
+            'necklaceInfo': 'elevate your look by nuance details',
+            'exploreNecklaces': 'Explore Necklaces',
+            'uniqueDesigns': 'Unique Designes',
+            'aNeedForEveryone': 'a need for everyone',
+            'keepYourselfUnique': 'Keep yourself unique'  // Added this translation
+        },
+        tr: {
+            'excellences': 'Excellences',
+            'searchText': 'Ne arıyorsunuz?',
+            'earrings': 'Küpe',
+            'bracelet': 'Bilezik',
+            'necklace': 'Kolye',
+            'piercing': 'Piercing',
+            'contact': 'İletişim',
+            'startShopping': 'Alışverişe Başla',
+            'exploreAccessories': 'Aksesuarları Keşfet',
+            'necklaceInfo': 'Görünümünüzü detaylarla zenginleştirin',
+            'exploreNecklaces': 'Kolye Keşfet',
+            'uniqueDesigns': 'Benzersiz Tasarımlar',
+            'aNeedForEveryone': 'Herkesin İhtiyacı',
+            'keepYourselfUnique': 'Kendinizi eşsiz tutun'  // Turkish translation for "Keep yourself unique"
+        }
+    };    
+});
+
+
