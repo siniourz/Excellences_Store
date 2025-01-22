@@ -73,7 +73,7 @@ window.addEventListener('scroll', () => {
     }
     else {
         navbar.style.position='absolute';
-        navbar.style.top='13%';
+        navbar.style.top='6.8vw';
         
     }
     
@@ -118,7 +118,17 @@ document.addEventListener("DOMContentLoaded", function() {
             'exploreNecklaces': 'Explore Necklaces',
             'uniqueDesigns': 'Unique Designes',
             'aNeedForEveryone': 'a need for everyone',
-            'keepYourselfUnique': 'Keep yourself unique'  // Added this translation
+            'keepYourselfUnique': 'Keep yourself unique', // Added this translation
+            'eh1':'Earings',
+            'eh6':'the most popular earing in 2024',
+            'eh3':'Elegant Drop Shaped Earring',
+            'eh4':'The teardrop design earrings were crowned the best of 2024, becoming a must-have item with high demand. Their elegant shape and timeless appeal add a unique touch to any style. Elevate your look with this stunning piece and stand out effortlessly.',
+            'addtocart':'add to cart',
+            'moreearings':'explore other earings',
+            'otherh1':'other popular earings',
+            'e12bt':'View Details',
+
+            
         },
         tr: {
             'excellences': 'Excellences',
@@ -134,9 +144,71 @@ document.addEventListener("DOMContentLoaded", function() {
             'exploreNecklaces': 'Kolye Keşfet',
             'uniqueDesigns': 'Benzersiz Tasarımlar',
             'aNeedForEveryone': 'Herkesin İhtiyacı',
-            'keepYourselfUnique': 'Kendinizi eşsiz tutun'  // Turkish translation for "Keep yourself unique"
+            'keepYourselfUnique': 'Kendinizi eşsiz tutun',  // Turkish translation for "Keep yourself unique"
+            'eh1':'Küpeler',
+            'eh6':'2024 ün en popüler küpesi',
+            'eh3':'Zarif Damla Şekilli Küpe',
+            'eh4':'Damla tasarımlı küpeler 2024 ün en iyisi olarak taçlandırıldı ve yüksek taleple olmazsa olmaz bir ürün haline geldi. Zarif şekilleri ve zamansız çekicilikleri her stile benzersiz bir dokunuş katar. Bu çarpıcı parça ile görünümünüzü yükseltin ve zahmetsizce öne çıkın.',
+            'addtocart':'Sepete ekle',
+            'moreearings':'diğer küpeleri keşfet',
+            'otherh1':'diğer popüler küpeler',
+            'e12bt':'Ayrıntıları Görüntüle',
+
+
         }
     };    
 });
+// Function to check if the element is in the viewport
+function isElementInView(el) {
+    var rect = el.getBoundingClientRect();
+    return (rect.top <= window.innerHeight && rect.bottom >= 0);
+}
+
+// Handle scroll event
+window.addEventListener('scroll', function() {
+    var fourthPart = document.querySelector('.otherearings-box');
+    var images = document.querySelectorAll('.earings1-box, .earing2-box');
+
+    // If the fourth part is in the viewport, show images
+    if (isElementInView(fourthPart)) {
+        fourthPart.classList.add('show-images');
+    }
+});
 
 
+
+// Function to check if the element is in the viewport
+function isElementInView(el) {
+    var rect = el.getBoundingClientRect();
+    return (rect.top <= window.innerHeight && rect.bottom >= 0);
+}
+
+// Handle scroll event
+window.addEventListener('scroll', function() {
+    var fourthPart = document.querySelector('.bg-box');
+    var images = document.querySelectorAll('.earings-img');
+
+    // If the fourth part is in the viewport, show images
+    if (isElementInView(fourthPart)) {
+        fourthPart.classList.add('show-images');
+    }
+});
+
+
+
+// Function to check if the element is in the viewport
+function isElementInView(el) {
+    var rect = el.getBoundingClientRect();
+    return (rect.top <= window.innerHeight && rect.bottom >= 0);
+}
+
+// Handle scroll event
+window.addEventListener('scroll', function() {
+    var fourthPart = document.querySelector('.bg-texts-earings');
+    var images = document.querySelectorAll('.earings-h1');
+
+    // If the fourth part is in the viewport, show images
+    if (isElementInView(fourthPart)) {
+        fourthPart.classList.add('show-h1');
+    }
+});

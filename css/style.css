@@ -371,7 +371,7 @@ a{
   width: 100%;
   height: 100%;
   position: relative;
-  bottom:101%;
+  bottom:100.8%;
   background-color: rgba(0, 0, 0, 0.439);
   
 
@@ -409,8 +409,240 @@ a{
   text-align: justify;
   margin-top: -2%;
 }
+.fourth-part{
+  width: 100%;
+  height: 50vw;
+  background-color: #D8D3C7;
+  margin: 0%;
+}
+.bg-box{
+  width: 35%;
+  height: 70%;
+  background-color: rgba(0, 0, 0, 0.92);
+  position: relative;
+  top: 8vw;
+  float: right;
 
 
+}
+.earings-img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: relative;
+  top: 15%;
+  right: 30%;
+}
+.bg-texts-earings{
+  width: 55%;
+  height: 85%;
+  position: relative;
+  top: 10%;
+  background-color: rgba(255, 255, 255, 0.456);
+  left: 1%;
+  border-radius: 20px;
 
+}
+.earings-h1{
+  width: 100%;
+  font-size: 10vw;
+  letter-spacing: 3vw;
+  text-align: center;
+  height: fit-content;
+  background-color: #D8D3C7;
+  margin: 0;
 
+}
+.earings-h3{
+  width: 80%;
+  height: fit-content;
+  font-size: 3vw;
+  margin-left: 10%;
+  margin-top: 2%;
+  font-weight: 600;
+  text-align: center;
+
+}
+.earings-h6{
+  width: 50%;
+  height: fit-content;
+  font-size: 0.9vw;
+  font-weight: 400;
+  margin-top: 8%;
+  margin-bottom: 0;
+  margin-left: 14%;
+  text-transform: capitalize;
+
+}
+.earings-h4{
+  width: 70%;
+  height: fit-content;
+  font-size: 1.2vw;
+  font-weight: 200;
+  word-spacing: 10%;
+  text-align: justify;
+  margin-left: 15%;
+  margin-top: -2%;
   
+}
+.addtocart{
+  width: 90%;
+  height: 3.4vw;
+  margin-left:5%;
+  background-color:black ;
+  font-size: 1.6vw;
+  border: none;
+  margin-top: 5%;
+  color: #D8D3C7;
+  border-radius: 5px;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: all ease 0.5s;
+}
+.exploremoreearings{
+  width: 90%;
+  height: 3.4vw;
+  margin-left:5%;
+  background-color:#D8D3C7 ;
+  font-size: 1.2vw;
+  border: solid 1px rgb(255, 255, 255);
+  margin-top: 1%;
+  color: #1a1a1a;
+  border-radius: 5px;
+  text-transform: capitalize;
+  transition: all ease 0.5s;
+}
+.addtocart:hover{
+  background-color: #c6212100;
+  border: solid black 1px;
+  color: #1a1a1a;
+  cursor: pointer;
+
+}
+.exploremoreearings:hover{
+  cursor: pointer;
+  border: solid 2px black;
+}
+.otherearings-box{
+  width: 100%;
+  height: 50vw;
+  margin: 0;
+  margin-top:7%;
+  background-color: #D8D3C7;
+}
+.earings-bg2{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: fill;
+  z-index: 2;
+}
+.earings-black-cover{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.468);
+  margin: 0;
+  position: relative;
+  top: -50.4vw;
+}
+.otherh1{
+  width: 100%;
+  text-align: center;
+  font-size: 5vw;
+  margin: 0;
+  text-transform: capitalize;
+  color: #D8D3C7;
+  position: relative;
+  top: 3vw;
+}
+.earings1-box{
+  width: 25%;
+  height: 75%;
+  margin-top: 4%;
+  margin-left: 15%;
+  background-color: rgba(0, 0, 0, 0.524);
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.e1-img,.e2-img{
+  width: 100%;
+  height: 80%;
+  object-fit: contain;
+  margin-top: 1.8vw;
+}
+.e1-button{
+  width: 60%;
+  height: 2.5vw;
+  margin-left: 20%;
+  margin-top: 1vw;
+  background-color: #D8D3C7;
+  border-radius: 5px;
+  border: solid rgb(255, 255, 255) 2px;
+  font-size: 1.2vw;
+  transition: all ease 0.2s;
+}
+.e1-button:hover{
+  background-color: #1a1a1a;
+  color: #D8D3C7;
+  cursor: pointer;
+}
+.earing2-box{
+  width: 25%;
+  height: 73%;
+  background-color: rgba(0, 0, 0, 0.524);
+  position: absolute;
+  top: 0vw;
+  left: 60%;
+  top: 20%;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+
+}
+/* Initially hide the images  va baraye on toda aks kochika earings */
+.e1-img, .e2-img {
+  opacity: 0;
+
+  transition: all 2s ease-out;
+  clip-path: inset(100% 0 0 0);
+}
+
+.earings1-box, .earing2-box {
+  transition: all 0.5s ease-out;
+}
+
+/* Add a class for showing the images on scroll */
+.show-images .e1-img, .show-images .e2-img {
+  opacity: 1;
+
+  transition: all ease 2s;
+  clip-path: inset(0 0 0 0);
+}
+
+.show-images .earings1-box {
+  transform: translateX(0);
+}
+
+.show-images .earing2-box {
+  transform: translateX(0);
+}
+
+
+/*baraye earings aks bozorde*/
+
+.earings-img{
+  opacity: 0;
+  clip-path: inset(0 100% 0 0);
+}
+.show-images .earings-img{
+  opacity: 1;
+  height: 100%;
+  overflow: hidden;
+  transition: all ease 1.5s;
+  clip-path: inset(0 0 0 0);
+
+}
+  
+
+
+
