@@ -127,7 +127,9 @@ document.addEventListener("DOMContentLoaded", function() {
             'moreearings':'explore other earings',
             'otherh1':'other popular earings',
             'e12bt':'View Details',
-
+            'braclets-h5':'Bracelets with unique designs serve as a refined expression of personal style, offering more than just an accessory. These carefully crafted pieces add depth and sophistication to any ensemble, subtly enhancing the wearer’s aesthetic. With their distinctiveness, they create a lasting impression, making a bold yet elegant statement about individuality and taste.',
+            'br-btt':'Explore All Earings',
+            'p-btt':'Explore All Piercings',
             
         },
         tr: {
@@ -153,6 +155,9 @@ document.addEventListener("DOMContentLoaded", function() {
             'moreearings':'diğer küpeleri keşfet',
             'otherh1':'diğer popüler küpeler',
             'e12bt':'Ayrıntıları Görüntüle',
+            'braclets-h5':'Benzersiz tasarımlara sahip bilezikler, kişisel tarzın rafine bir ifadesi olarak hizmet eder ve sadece bir aksesuardan daha fazlasını sunar. Bu özenle hazırlanmış parçalar, her topluluğa derinlik ve sofistikelik katar ve kullanıcının estetiğini incelikle geliştirir. Farklılıklarıyla, kalıcı bir izlenim yaratır, bireysellik ve zevk hakkında cesur ama zarif bir ifade oluştururlar.',
+            'br-btt':'Tüm Küpeleri Keşfedin',
+            'p-btt':'Tüm Piercingleri Keşfedin',
 
 
         }
@@ -230,3 +235,41 @@ window.addEventListener('scroll', function() {
         fourthPart.classList.add('show-bracletsimg');
     }
 });
+
+
+
+// Function to check if the element is in the viewport
+function isElementInView(el) {
+    var rect = el.getBoundingClientRect();
+    return (rect.top <= window.innerHeight && rect.bottom >= 0);
+}
+
+// Handle scroll event
+window.addEventListener('scroll', function() {
+    var fourthPart = document.querySelector('.p-color');
+    var images = document.querySelectorAll('.p-img');
+
+    // If the fourth part is in the viewport, show images
+    if (isElementInView(fourthPart)) {
+        fourthPart.classList.add('show-p-img');
+    }
+});
+
+
+// Function to check if the element is in the viewport
+function isElementInView(el) {
+    var rect = el.getBoundingClientRect();
+    return (rect.top <= window.innerHeight && rect.bottom >= 0);
+}
+
+// Handle scroll event
+window.addEventListener('scroll', function() {
+    var fourthPart = document.querySelector('.p-bg');
+    var images = document.querySelectorAll('.p-vid');
+
+    // If the fourth part is in the viewport, show images
+    if (isElementInView(fourthPart)) {
+        fourthPart.classList.add('show-p-bg');
+    }
+});
+
