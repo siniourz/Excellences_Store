@@ -212,3 +212,21 @@ window.addEventListener('scroll', function() {
         fourthPart.classList.add('show-h1');
     }
 });
+
+
+// Function to check if the element is in the viewport
+function isElementInView(el) {
+    var rect = el.getBoundingClientRect();
+    return (rect.top <= window.innerHeight && rect.bottom >= 0);
+}
+
+// Handle scroll event
+window.addEventListener('scroll', function() {
+    var fourthPart = document.querySelector('.braclets-color');
+    var images = document.querySelectorAll('.braclets-img');
+
+    // If the fourth part is in the viewport, show images
+    if (isElementInView(fourthPart)) {
+        fourthPart.classList.add('show-bracletsimg');
+    }
+});
