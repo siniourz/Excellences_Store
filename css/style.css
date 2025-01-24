@@ -242,7 +242,7 @@ body{
 }
 .right-button{
   background-color: #d8d3c7c6;
-  border: solid 2px #1a1a1a;
+  border: solid 2px #fff;
   margin-left: 0%;
   margin-top: 4%;
   color: #1a1a1a;
@@ -745,9 +745,9 @@ a{
   margin-left: 10%;
   font-size: 1.2vw;
   border: solid aliceblue 2px;
-  margin-top: -5%;
+  margin-top: 4vw;
   border-radius: 10px;
-  background-color: #1a1a1ae9;
+  background-color: #1a1a1a;
   color: #ffffff;
   transition: all ease 0.2s;
 }
@@ -763,7 +763,7 @@ a{
   height: 55%;
   background-color: #00000076;
   margin: 0;
-  margin-top: 3vw;
+  margin-top: -2vw;
   margin-left: 2vw;
 }
 .p-vid{
@@ -798,52 +798,38 @@ a{
   clip-path: inset(0 0 0 0);
 
 }
-
-.container-2{
+.p-bg-2{
   width: 100%;
-  height: 10vw;
-  display: flex;
-  margin-top: 6vw;
-  overflow: hidden;
-  -webkit-mask-image:linear-gradient(90deg, #fff 10%, #fff 100% ,transparent);
-  mask-image:linear-gradient(90deg, transparent #fff 20% ,#fff 100%, transparent);
+  height: 12.5vw;
+  background-color: rgba(255, 0, 0, 0);
+  margin: 0;
+  margin-top: 5.4vw;
 }
-.scroller{
-  display: flex;
-  gap: 20px;
-  animation: scroll 25s linear infinite;
-  animation-delay: calc(25s / -1);
+.p-aks{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+}
+.p-cover{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: -12.9vw;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.scroller:nth-child(2){
-  animation: scroll2 25s linear infinite;
-  animation-delay: calc(25s / -2);
+.p-cover-h1{
+  font-size:5vw ;
+  text-align: center;
+  color: #ffffff;
+  text-transform: capitalize;
 }
-.item{
-  height: fit-content;
-  font-size: 25px;
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: 1.5px;
-  color: #fff;
-  padding: 7px 15px;
-  border-radius: 7px;
-  box-shadow: rgba(255, 255, 255, 0.192) 0px 0px 15px;
-}
-@keyframes scroll{
-  0%{
-      transform: translateX(100%);
-  }
-  100%{
-      transform: translateX(-100%);
-  }
-}
-
-@keyframes scroll2{
-  0%{
-      transform: translateX(0);
-  }
-  100%{
-      transform: translateX(-200%);
-  }
+.testt{
+  width: 100%;
+  height: 100vw;
+  background-color: #b7b3a9;
+  margin: 0;
 }
