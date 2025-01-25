@@ -130,6 +130,11 @@ document.addEventListener("DOMContentLoaded", function() {
             'braclets-h5':'Bracelets with unique designs serve as a refined expression of personal style, offering more than just an accessory. These carefully crafted pieces add depth and sophistication to any ensemble, subtly enhancing the wearer’s aesthetic. With their distinctiveness, they create a lasting impression, making a bold yet elegant statement about individuality and taste.',
             'br-btt':'Explore All Earings',
             'p-btt':'Explore All Piercings',
+            'payment':'Payment Methods: ',
+            'follow':'Follow us on: ',
+            'contactus':'contact us at: ',
+            'company':'company',
+
             
         },
         tr: {
@@ -158,6 +163,11 @@ document.addEventListener("DOMContentLoaded", function() {
             'braclets-h5':'Benzersiz tasarımlara sahip bilezikler, kişisel tarzın rafine bir ifadesi olarak hizmet eder ve sadece bir aksesuardan daha fazlasını sunar. Bu özenle hazırlanmış parçalar, her topluluğa derinlik ve sofistikelik katar ve kullanıcının estetiğini incelikle geliştirir. Farklılıklarıyla, kalıcı bir izlenim yaratır, bireysellik ve zevk hakkında cesur ama zarif bir ifade oluştururlar.',
             'br-btt':'Tüm Küpeleri Keşfedin',
             'p-btt':'Tüm Piercingleri Keşfedin',
+            'payment':'ödeme yöntemleri: ',
+            'follow':'Bizi takip edin: ',
+            'contactus':'bizimle iletişime geçin: ',
+            'company':'şirket',
+
 
 
         }
