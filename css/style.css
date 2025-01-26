@@ -582,7 +582,7 @@ a{
   transition: all ease 0.2s;
 }
 .e1-button:hover{
-  background-color: #1a1a1a;
+  background-color: #1a1a1a00;
   color: #D8D3C7;
   cursor: pointer;
 }

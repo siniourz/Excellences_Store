@@ -46,24 +46,7 @@ window.addEventListener('scroll', () => {
       
 
 
-        sign1.style.marginLeft='0px';
-        sign1.style.opacity='1';
-
-        sign2.style.marginLeft='0px';
-        sign2.style.opacity='1';
-
-        sign3.style.marginLeft='0px';
-        sign3.style.opacity='1';
-
-        sign4.style.marginLeft='0px';
-        sign4.style.opacity='1';
-
-        firstbox.style.opacity='1';
-        firstbox.style.marginTop='0px';
-
-        arrow.style.opacity='0';
-
-
+    
         scroll.style.opacity='0';
 
 
