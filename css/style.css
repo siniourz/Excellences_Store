@@ -68,12 +68,13 @@ body{
     font-size: 1vw;
     justify-content: center;
     left: 2.2vw;
-    bottom: 2.5vw;
+    bottom: 1.3vw;
     font-weight: 600;
     opacity: 50%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     word-spacing: -1px;
     color: #ffffff;
+    border: none;
   }
   .search_text:hover,.search_logo{
     opacity: 100%;
@@ -831,7 +832,7 @@ a{
 }
 .last-footer {
   width: 100%;
-  height: 30vw;
+  height: 23vw;
  background-color: #1a1a1a;
   margin-top: -10vw;
   display: flex;
@@ -923,12 +924,12 @@ a{
   margin-left: 25%;
 }
 .master{
-  width: 100%;
+  width: 90%;
   height: 100%;
   
 }
 .master-2{
-  width: 100%;
+  width: 90%;
   height: 100%;
   margin-left: 1vw;
 }
@@ -951,7 +952,7 @@ a{
 .footer-h4{
   position: absolute;
   font-size: 1vw;
-  top: 381vw;
+  top: 373vw;
   margin-left: 2vw;
   font-weight: 400;
   

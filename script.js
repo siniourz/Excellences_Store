@@ -63,6 +63,60 @@ window.addEventListener('scroll', () => {
 
 });
 
+// Sample list of products (or content items) to search through
+const products = [
+    { name: 'Earrings', description: 'Beautiful gold earrings that sparkle with elegance.' },
+    { name: 'Necklace', description: 'Elegant silver necklace perfect for any occasion.' },
+    { name: 'Bracelet', description: 'Stylish bracelet with a modern design.' },
+    { name: 'Ring', description: 'Exquisite diamond ring for special moments.' },
+    { name: 'Ear Cuffs', description: 'Trendy ear cuffs with a unique look.' }
+  ];
+  
+  // Configure Fuse.js options for fuzzy searching
+  const options = {
+    keys: ['name', 'description'], // Fields to search in
+    threshold: 0.4,                // Adjust to control fuzzy matching sensitivity (0.0 = strict, 1.0 = loose)
+  };
+  
+  // Initialize Fuse.js with the products array and options
+  const fuse = new Fuse(products, options);
+  
+  // Get references to the search input and results container
+  const searchInput = document.querySelector('.search_text');
+  const resultsDiv = document.getElementById('results');
+  
+  // Listen for user input on the search bar (as they type)
+  searchInput.addEventListener('input', function() {
+    const query = searchInput.value.trim();
+    if (query === '') {
+      resultsDiv.innerHTML = ''; // Clear results if the search box is empty
+      return;
+    }
+    // Use Fuse.js to perform the fuzzy search
+    const results = fuse.search(query);
+    displayResults(results);
+  });
+  
+  // Function to display search results in the results container
+  function displayResults(results) {
+    if (results.length === 0) {
+      resultsDiv.innerHTML = '<p>No results found.</p>';
+      return;
+    }
+    let html = '';
+    results.forEach(result => {
+      html += `
+        <div class="result-item">
+          <h4>${result.item.name}</h4>
+          <p>${result.item.description}</p>
+        </div>
+      `;
+    });
+    resultsDiv.innerHTML = html;
+  }
+  
+
+
 
 document.addEventListener("DOMContentLoaded", function() {
     document.querySelector('.tr-button').addEventListener('click', function() {
@@ -95,8 +149,8 @@ document.addEventListener("DOMContentLoaded", function() {
             'necklace': 'Necklace',
             'piercing': 'Piercing',
             'contact': 'Contact',
-            'startShopping': 'Start Shopping',
-            'exploreAccessories': 'Explore Accessories',
+            'startShopping': 'Show All Accessories',
+            'exploreAccessories': 'Show All Earings',
             'necklaceInfo': 'elevate your look by nuance details',
             'exploreNecklaces': 'Explore Necklaces',
             'uniqueDesigns': 'Unique Designes',
@@ -128,8 +182,8 @@ document.addEventListener("DOMContentLoaded", function() {
             'necklace': 'Kolye',
             'piercing': 'Piercing',
             'contact': 'İletişim',
-            'startShopping': 'Alışverişe Başla',
-            'exploreAccessories': 'Aksesuarları Keşfet',
+            'startShopping': 'Tüm Aksesuarları Göster',
+            'exploreAccessories': 'Tüm Küpeleri Göster',
             'necklaceInfo': 'Görünümünüzü detaylarla zenginleştirin',
             'exploreNecklaces': 'Kolye Keşfet',
             'uniqueDesigns': 'Benzersiz Tasarımlar',
