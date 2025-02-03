@@ -965,3 +965,14 @@ a{
 .shopier:hover{
   text-decoration: underline;
 }
+@media only screen and (max-width:768px){
+
+  .navigator{
+    height: 25vw;
+  }
+  nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}

@@ -27,7 +27,7 @@ function toggleMobileMenu(element) {
 
 let hasScrolledDown = false;  
 
-window.addEventListener('scroll', () => {
+windowaddEventListener('scroll', () => {
     if (hasScrolledDown) return;  
 
     const sign1=document.querySelector('.sign1');
