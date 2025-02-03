@@ -971,6 +971,12 @@ a{
 .mobile-btt{
   display: none;
 }
+.mobile-img{
+  display: none;
+}
+.mobile-img2{
+  display: none;
+}
 @media only screen and (max-width:768px){
 
   .navigator{
@@ -1080,6 +1086,7 @@ a{
     text-align: center;
     text-transform: capitalize;
     color: #1a1a1a;
+    margin-top: -1.2vw;
   }
   .second-background{
     height: 180vw;
@@ -1088,18 +1095,19 @@ a{
   }
   .box1{
     width: 100%;
-    height: 40%;
-    border-bottom-left-radius: 150px;
-    border-bottom-right-radius: 150px;
+    height: 45%;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
     top: 0%;
     background-color: #ffffffab;
 
   }
   .necklace-text{
-    top:12vw;
+    top:9vw;
     height: 20%;
     width: 100%;
     left: 0;
+
 
   }
   .necklace-h2{
@@ -1123,13 +1131,14 @@ a{
     border: none;
 
   }
+  
   .necklace{
     margin: 0;
     width: 90%;
-    height: 100%;
+    height: 90%;
     object-fit: cover ;
     left: 5%;
-    margin-top: -5vw;
+    margin-top: -6vw;
     border-bottom-right-radius: 100px;
     border-bottom-left-radius: 100px;
   }
@@ -1137,7 +1146,7 @@ a{
     width: 100%;
     margin-top: 100vw;
     left: 0;
-    height: 32%;
+    height: 40%;
     background-color: #fffefc;
     padding-bottom: 0vw;
     border-top-right-radius: 100px;
@@ -1153,24 +1162,34 @@ a{
     top: -5vw;
     border-top-right-radius: 80px;
     border-top-left-radius: 80px;
+    display: none;
 
+  }
+  .mobile-img{
+    display: block;
+    width: 90%;
+    height:100%;
+    margin-left: 5%;
+    object-fit: cover;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
   }
   .third-part{
     width: 100%;
-    height: 60vh;
-    margin-top: 3vh;
+    height: 90vh;
+    margin-top: 14vh;
   }
   .black-cover{
     width: 100%;
     height: 100%;
-    margin-top: -0.2vh;
+    margin-top: -0vh;
 
   }
   .square{
-    width: 80%;
+    width: 90%;
     height: 80%;
-    margin-left: 10%;
-    margin-top: 10%;
+    margin-left: 5%;
+    margin-top: 20%;
     top: 0;
     left: 0;
   }
@@ -1184,6 +1203,85 @@ a{
   .squareh6{
     font-size: 1.8vh;
     font-weight: 300;
+  }
+  .mobile-img2{
+    display: block;
+    width: 90%;
+    height: 40%;
+    object-fit: cover;
+    margin-left: 5%;
+
+  }
+  .fourth-part{
+    width: 100%;
+    height: 100vh;
+  }
+  .bg-box{
+    display: block;
+    width: 100%;
+    height: 40%;
+    z-index: 3;
+    margin-top: 20vh;
+  
+  }
+  .earings-img{
+    width: 80%;
+    height: 100%;
+    object-fit: contain;
+    left: 10%;
+  }
+  .bg-texts-earings{
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    margin-top: -10vh;
+    z-index: 2;
+    background-color: #D8D3C7;
+    padding-bottom: 2vh;
+  }
+  .earings-h1{
+    top: 5vh;
+    position: absolute;
+    font-size: 7vh;
+    background-color: #D8D3C7;
+    
+  }
+  .earings-h6{
+    margin-top: 0vh;
+    font-size: 1.3vh;
+    width: fit-content;
+
+
+  }
+  .earings-h3{
+    font-size: 3vh;
+  }
+  .earings-h4{
+    font-size: 1.7vh;
+    font-weight: 300;
+  }
+  .addtocart{
+    height: 5vh;
+    font-size: 2vh;
+    margin-top: 0vh;
+  }
+  .exploremoreearings{
+    height: 5vh;
+    font-size: 2vh;
+    background-color: #fff;
+    margin-top: 1vh;
+    border-radius: 30px;
+  }
+
+
+
+
+.otherearings-box{
+  margin-top: 20vh;
+}
+
+  .fifth-part{
+    margin-top: 20vh;
   }
 
 }
