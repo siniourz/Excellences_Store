@@ -1077,6 +1077,7 @@ a{
     border: none;
     text-align: center;
     text-transform: capitalize;
+    color: #1a1a1a;
   }
   .second-background{
     height: 180vw;
@@ -1143,6 +1144,35 @@ a{
     left: 0;
     top: -5vw;
 
+  }
+  .third-part{
+    width: 100%;
+    height: 60vh;
+  }
+  .black-cover{
+    width: 100%;
+    height: 100%;
+    margin-top: -0.2vh;
+
+  }
+  .square{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    top: 0;
+    left: 0;
+  }
+  .squareh1{
+    font-size: 5vh;
+  }
+  .squareh4{
+    font-size: 2vh;
+    font-weight: 500;
+  }
+  .squareh6{
+    font-size: 1.8vh;
+    font-weight: 300;
   }
 
 }
