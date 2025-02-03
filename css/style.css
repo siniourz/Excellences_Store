@@ -968,6 +968,9 @@ a{
 .mobile{
   display: none;
 }
+.mobile-btt{
+  display: none;
+}
 @media only screen and (max-width:768px){
 
   .navigator{
@@ -977,7 +980,7 @@ a{
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 15vw;
+    height: 12vw;
     background-color: #D8D3C7;
   }
   ul{
@@ -1004,21 +1007,36 @@ a{
     height: 120vw;
     
   }
+  .excellences_box{
+    width: 50%;
+    left: 0;
+  }
   .text{
     font-size: 10vw;
+    float: left;
+
   }
-.search_text{
+.search_bar_container{
   display: none;
-} 
-.search_logo{
- object-fit: cover;
- width: 200px;
- height: 200px;
+}
+.languages{
+  border-radius: 0;
+  width: 30%;
+  margin-left: -15% ;
+  margin-top: 12%;
+  height: 50%;
+  font-size: 5vw;
+  color: #fff;
 }
 .tr-button,.en-button{
-  font-size: 2vw;
+  font-size: 3vw;
   margin-top  : 2vw;
   margin-right:5vw ;
+  border-radius: 0;
+  height: 100%;
+  text-decoration: underline;
+ 
+  
 }
 
 
@@ -1046,5 +1064,17 @@ a{
   }
   .box-button-right{
     display: none;
+  }
+  .mobile-btt{
+    width: 70%;
+    height: 20%;
+    margin-left: 15%;
+    background-color: #D8D3C7;
+    display: block;
+    border-radius: 20px;
+    font-size: 5vw;
+    border: none;
+    text-align: center;
+    text-transform: capitalize;
   }
 }
