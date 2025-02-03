@@ -1038,8 +1038,6 @@ a{
  
   
 }
-
-
   .img{
     width: 100%;
     height: 100%;
@@ -1077,4 +1075,70 @@ a{
     text-align: center;
     text-transform: capitalize;
   }
+  .second-background{
+    height: 180vw;
+    width: 100%;
+
+  }
+  .box1{
+    width: 100%;
+    height: 40%;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    top: 0%;
+    background-color: #1a1a1aab;
+
+  }
+  .necklace-text{
+    top:12vw;
+    height: 20%;
+    width: 100%;
+    left: 0;
+
+  }
+  .necklace-h2{
+    width: 100%;
+    font-size: 10vw;
+    margin-top: 0;
+    height: 100%;
+  }
+  .necklace-info{
+    width: 60%;
+    margin-left: 20%;
+    font-size: 5vw;
+    margin-top: 12%;
+  }
+  .necklace-button{
+    width: 70%;
+    left: 15%;
+    height: 25%;
+    font-size: 3vw;
+    margin-top: -2vw;
+    border: none;
+
+  }
+  .necklace{
+    margin: 0;
+    width: 90%;
+    height: 100%;
+    object-fit: cover ;
+    left: 5%;
+  }
+  .necklace-video{
+    width: 100%;
+    margin-top: 100vw;
+    left: 0;
+    height: 30%;
+    background-color: #1a1a1a;
+    padding-bottom: 8vw;
+  }
+  .necklaceVideo{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: -5vw;
+
+  }
+
 }
