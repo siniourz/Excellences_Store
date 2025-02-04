@@ -1346,8 +1346,7 @@ a{
   padding-top: 10px;
   margin-top: -5vh;
   background: linear-gradient(#fff , #1a1a1a);
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+
 }
 .braclets-img{
   width: 94%;
@@ -1380,10 +1379,8 @@ a{
 .p-color{
   width: 100%;
   margin: 0;
-  background-color: rgb(255, 251, 251);
   margin-top: 4vh;
-  border-top-right-radius: 30px;
-  border-top-left-radius: 30px;
+  background: linear-gradient(#1a1a1a 30%,#D8D3C7);
 
 }
 .p-img{
