@@ -1250,7 +1250,7 @@ a{
     
   }
   .earings-h6{
-    margin-top: 0vh;
+    margin-top: 1vh;
     font-size: 1.3vh;
     width: fit-content;
 
@@ -1280,11 +1280,11 @@ a{
 
 
 .otherearings-box{
-  margin-top: 20vh;
+  margin-top: 10vh;
 }
 
   .fifth-part{
-    margin-top: 20vh;
+    margin-top: 10vh;
   }
 
 }
