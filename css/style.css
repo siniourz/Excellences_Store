@@ -1261,8 +1261,6 @@ a{
     clip-path: inset(0 100% 0 0);
     
   }
-
-}
 .show-earings-h1 .earings-h1{
   opacity: 1;
   overflow: hidden;
@@ -1294,10 +1292,6 @@ a{
     margin-top: 1vh;
     border-radius: 30px;
   }
-
-
-
-
 .otherearings-box{
   margin-top: 10vh;
 }
