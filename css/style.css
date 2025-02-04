@@ -1264,7 +1264,7 @@ a{
 .show-earings-h1 .earings-h1{
   opacity: 1;
   overflow: hidden;
-  transition: all ease 1.4s;
+  transition: all ease 2.4s;
   clip-path: inset(0 0 0 0);
 
 }
