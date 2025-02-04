@@ -1098,11 +1098,11 @@ a{
   }
   .box1{
     width: 100%;
-    height: 45%;
-    border-bottom-left-radius: 90px;
-    border-bottom-right-radius: 90px;
-    top: 0%;
-    background-color: #ffffffab;
+    height: 48%;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    top: -1%;
+    background-color: #1a1a1a;
 
   }
   .necklace-text{
@@ -1149,8 +1149,8 @@ a{
     width: 100%;
     margin-top: 100vw;
     left: 0;
-    height: 40%;
-    background-color: #fffefc;
+    height: 45%;
+    background-color: #1a1a1a00;
     padding-bottom: 0vw;
     border-top-right-radius: 100px;
     border-top-left-radius: 100px;
@@ -1170,17 +1170,15 @@ a{
   }
   .mobile-img{
     display: block;
-    width: 90%;
+    width: 100%;
     height:100%;
-    margin-left: 5%;
     object-fit: cover;
-    border-top-right-radius: 80px;
-    border-top-left-radius: 80px;
+
   }
   .third-part{
     width: 100%;
     height: 90vh;
-    margin-top: 14vh;
+    margin-top: 16vh;
   }
   .black-cover{
     width: 100%;
@@ -1195,6 +1193,15 @@ a{
     margin-top: 20%;
     top: 0;
     left: 0;
+    opacity: 0;
+    clip-path: inset(0 0 100% 0);
+  }
+  .show-square .square{
+    opacity: 1;
+    overflow: hidden;
+    transition: all ease 2.5s;
+    clip-path: inset(0 0 0 0);
+  
   }
   .squareh1{
     font-size: 5vh;
@@ -1232,29 +1239,41 @@ a{
     height: 100%;
     object-fit: contain;
     left: 10%;
+    margin-top: -3vh;
   }
   .bg-texts-earings{
     width: 100%;
     height: fit-content;
     margin: 0;
     margin-top: -10vh;
+    left: 0;
     z-index: 2;
     background-color: #D8D3C7;
     padding-bottom: 2vh;
+    
   }
   .earings-h1{
     top: 5vh;
     position: absolute;
     font-size: 7vh;
     background-color: #D8D3C7;
+    opacity: 0;
+    clip-path: inset(0 100% 0 0);
     
   }
+
+}
+.show-earings-h1 .earings-h1{
+  opacity: 1;
+  overflow: hidden;
+  transition: all ease 1.4s;
+  clip-path: inset(0 0 0 0);
+
+}
   .earings-h6{
-    margin-top: 1vh;
+    margin-top: 0vh;
     font-size: 1.3vh;
     width: fit-content;
-
-
   }
   .earings-h3{
     font-size: 3vh;
@@ -1285,6 +1304,12 @@ a{
 
   .fifth-part{
     margin-top: 10vh;
+  }
+  .footer-h4{
+    display: none;
+  }
+  .shopier{
+    display: none;
   }
 
 }

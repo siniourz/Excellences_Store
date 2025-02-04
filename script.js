@@ -294,3 +294,40 @@ window.addEventListener('scroll', function() {
     }
 });
 
+
+// Function to check if the element is in the viewport
+function isElementInView(el) {
+    var rect = el.getBoundingClientRect();
+    return (rect.top <= window.innerHeight && rect.bottom >= 0);
+}
+
+// Handle scroll event
+window.addEventListener('scroll', function() {
+    var fourthPart = document.querySelector('.third-part');
+    var images = document.querySelectorAll('.square');
+
+    // If the fourth part is in the viewport, show images
+    if (isElementInView(fourthPart)) {
+        fourthPart.classList.add('show-square');
+    }
+});
+
+
+
+// Function to check if the element is in the viewport
+function isElementInView(el) {
+    var rect = el.getBoundingClientRect();
+    return (rect.top <= window.innerHeight && rect.bottom >= 0);
+}
+
+// Handle scroll event
+window.addEventListener('scroll', function() {
+    var fourthPart = document.querySelector('.bg-texts-earings');
+    var images = document.querySelectorAll('.earings-h1');
+
+    // If the fourth part is in the viewport, show images
+    if (isElementInView(fourthPart)) {
+        fourthPart.classList.add('show-earings-h1');
+    }
+});
+
