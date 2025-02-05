@@ -1382,6 +1382,9 @@ a{
   
  
 }
+.e1-button:hover{
+  background-color: #1a1a1a;
+}
 .fifth-part{
   margin-top: 135vh;
   height: 120vh;
