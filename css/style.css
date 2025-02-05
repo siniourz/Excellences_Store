@@ -1138,15 +1138,21 @@ a{
     font-size: 4vw;
     margin-top: 12%;
   }
-  .necklace-button{
+  .necklace-button,.salam{
     width: 60%;
     left: 20%;
     height: 25%;
-    font-size: 3vw;
+    font-size: 3.2vw;
     margin-top: -4vw;
     border: none;
 
   }
+  .salam{
+    margin-top: 27%;
+    margin-left: -80%;
+    
+  }
+
   
   .necklace{
     margin: 0;
