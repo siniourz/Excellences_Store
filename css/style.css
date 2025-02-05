@@ -1138,22 +1138,28 @@ a{
     font-size: 4vw;
     margin-top: 12%;
   }
-  .necklace-button,.salam{
+  .necklace-button{
     width: 60%;
     left: 20%;
     height: 25%;
     font-size: 3.2vw;
     margin-top: -4vw;
     border: none;
+    background-color: #00000000;
+    color: #D8D3C7;
 
   }
-  .salam{
-    margin-top: 27%;
+
+  .necklace-text a{
+    background-color: #1a1a1ae3;
+    width: 60%;
     margin-left: -80%;
-    
+    margin-top:22%;
+    height: 25%;
+    position: relative;
+    z-index: 4;
+    border-radius: 30px;
   }
-
-  
   .necklace{
     margin: 0;
     width: 96%;
@@ -1192,7 +1198,7 @@ a{
     opacity: 0;
     clip-path: inset(100% 0 0 0);
     margin-left: 0%;
-    margin-top: -3vh;
+    margin-top: -13%;
     width: 100%;
     height: 300vh;
     display: block;
