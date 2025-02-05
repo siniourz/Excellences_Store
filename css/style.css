@@ -991,6 +991,7 @@ a{
     opacity: 0;
     clip-path: inset(0 100% 0 0);
     transition: ease all 0.8s;
+    
   }
   ul{
     text-align: center;
@@ -999,10 +1000,12 @@ a{
     color: #fff;
     background-color: #ffffff;
     color: #1a1a1a;
+    
   }
   nav ul li a{
     font-size: 3vw;
     color: #1a1a1a;
+    
 
   }
   .mobile{
@@ -1010,6 +1013,7 @@ a{
     height: 70%;
     display: block;
     margin-left: 15%;
+    
   }
   .small-line{
     display: none;
@@ -1022,10 +1026,12 @@ a{
   .excellences_box{
     width: 50%;
     left: 0;
+    
   }
   .text{
     font-size: 10vw;
     float: left;
+    
 
   }
 .search_bar_container{
@@ -1039,6 +1045,7 @@ a{
   height: 50%;
   font-size: 5vw;
   color: #fff;
+  
 }
 .tr-button,.en-button{
   font-size: 3vw;
@@ -1047,6 +1054,7 @@ a{
   border-radius: 0;
   height: 100%;
   text-decoration: underline;
+  
  
   
 }
@@ -1055,11 +1063,13 @@ a{
     height: 100%;
     object-fit: cover;
 
+    
   }
   .box-text{
     height: 40vw;
     top: 80vw;
     background-color: #1a1a1a;
+    
   }
   .bigh1{
     font-size: 10vw;
@@ -1068,6 +1078,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+
 
   }
   .box-bottom{
@@ -1092,8 +1104,9 @@ a{
     margin-top: -1.2vw;
   }
   .second-background{
-    height: 180vw;
+    height: 220vw;
     width: 100%;
+    padding-bottom: 30vh;
 
   }
   .box1{
@@ -1102,7 +1115,7 @@ a{
     border-bottom-left-radius: 110px;
     border-bottom-right-radius: 110px;
     top: -1%;
-    background-color: #1a1a1a;
+    background: linear-gradient( #1a1a1a, #D8D3C7 80%);
 
   }
   .necklace-text{
@@ -1137,10 +1150,10 @@ a{
   
   .necklace{
     margin: 0;
-    width: 90%;
+    width: 96%;
     height: 90%;
     object-fit: cover ;
-    left: 5%;
+    left: 2%;
     margin-top: -6vw;
     border-bottom-right-radius: 100px;
     border-bottom-left-radius: 100px;
@@ -1170,12 +1183,13 @@ a{
   }
   .mobile-img{
     display: block;
-    width: 100%;
+    width: 96%;
     height:100%;
     object-fit: cover;
     opacity: 0;
     clip-path: inset(100% 0 0 0);
-    background-color: #D8D3C7;
+    margin-left: 2%;
+    margin-top: 10vh;
 
   }
 
@@ -1190,7 +1204,7 @@ a{
   .third-part{
     width: 100%;
     height: 90vh;
-    margin-top: 16vh;
+    margin-top: 0vh;
   }
   .black-cover{
     width: 100%;
@@ -1263,6 +1277,7 @@ a{
     background-color: #D8D3C7;
     padding-bottom: 2vh;
     border-radius: 0;
+    padding-bottom: 5vh;
     
   }
   .earings-h1{
@@ -1307,58 +1322,80 @@ a{
   }
   .otherearings-box{
   margin-top: 10vh;
-  height: 120vh;
+  height: 140vh;
+  margin: 0;
+  margin-top: -10vh;
 }
 .otherh1{
-  width: 100%;
+  width: 98%;
   font-size: 5vh;
   height: fit-content;
+  color: #1a1a1a;
+  padding-bottom: 5vh;
+  margin: 0;
+  margin-left: 1%;
+  margin-top: -1vh;
 }
 .earings-black-cover{
   margin-top: 0;
   top: -120.7vh;
   display: block;
+  background: linear-gradient(#D8D3C7,#1a1a1a);
+  margin-left: 0;
+ 
+  
 }
 .earings1-box{
-  width: 92%;
+  width: 98%;
   height: 45%;
-  margin-left: 4%;
+  margin-left: 1%;
+  background-color: transparent;
+  margin-top: -1vh;
+  
 
 }
 .e1-img,.e2-img{
-  width: 80%;
+  width: 94%;
   height: 80%;
   object-fit: cover;
-  margin-left: 10%;
+  margin-left: 3%;
   margin-top: 5%;
+  
 
 }
 .earing2-box{
-  width: 92%;
+  width: 98%;
   height: 45%;
-  margin-left: 4%;
+  margin-left: 1%;
   left: 0;
   top: 55%;
+  background-color: transparent;
+
 }
 .e1-button{
-  height: 9%;
-  font-size: 3vh;
+  height: 7%;
+  font-size: 4vw;
   background-color: #00000076;
   color: #fff;
-  border-radius: 30px;
+  border-radius: 10px;
+  margin-top: 2vh;
+  
+ 
 }
 .fifth-part{
-  margin-top: 100vh;
+  margin-top: 150vh;
   height: 120vh;
   background-color: #1a1a1a;
+  
 }
 .braclets-color{
   width: 100%;
   height: 30%;
   margin: 0;
   padding-top: 10px;
-  margin-top: -5vh;
+  margin-top: -15vh;
   background: linear-gradient(#fff , #1a1a1a);
+  
 
 }
 .braclets-img{
@@ -1368,18 +1405,22 @@ a{
   margin-left: 3%;
   object-fit: cover;
   margin-top: 10%;
+  
 }
 .braclets-texts{
-  margin-top: 42vh;
+  margin-top: 36vh;
   width: 100%;
   height: 30%;
   margin-left: 0;
   color: #D8D3C7;
   
+  
 }
 .braclets-h1{
-  font-size: 8vh;
+  font-size: 7vh;
   color: #fff;
+  
+  
 }
 .braclets-h5{
   font-size: 2vh;
