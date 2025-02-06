@@ -529,6 +529,8 @@ body{
   @media only screen and (max-width:768px){
     .navigator{
       height: 25vw;
+      position: relative;
+      z-index: 14;
     }
     nav{
       position: fixed;
@@ -539,6 +541,7 @@ body{
       opacity: 0;
       clip-path: inset(100% 0 0 0);
       transition: ease-in all 0.8s;
+      z-index: 14;
       
     }
     ul{
@@ -611,9 +614,11 @@ body{
     height: 70vh;
   }
   .e-texts{
-    height: 70vh;
+    height: 120vh;
     width: 100%;
-    margin-top: -10vh;
+    margin-top: -31%;
+    position: absolute;
+    z-index: 11;
   }
   .earings-h1{
     font-size: 5vh;
@@ -628,6 +633,8 @@ body{
     width: 100%;
     height: 90vh;
     display: block;
+    position: relative;
+    z-index: 12;
   }
   .e-bg2{
     width: 100%;
@@ -635,6 +642,12 @@ body{
     height: 40%;
     padding-bottom: vh;
 
+  }
+  .e-img{
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 0;
   }
   .e-texts2{
     width: 100%;
