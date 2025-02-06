@@ -92,6 +92,37 @@ window.addEventListener('scroll', () => {
   }
 });
 
+let hasScrolledDo = false;
+
+window.addEventListener('scroll', () => {
+  // Only execute if the viewport width is more than 768px
+  if (window.innerWidth >= 768) return;
+  
+  if (hasScrolledDo) return;
+
+  
+  const circle = document.querySelector('.circle');
+
+  // Adjust the following if your intended element is not named ".scroll"
+  const scrollElement = document.querySelector('.scroll');
+
+  const scrollTop = window.scrollY;
+
+  if (scrollTop > 285) {
+    circle.style.opacity='1';
+    circle.style.clipPath='inset(0 0 0 0)';
+
+    if (scrollElement) {
+      circle.style.opacity='1';
+      circle.style.clipPath='inset(0 0 0 0)';
+
+
+    }
+  } else {
+ 
+  }
+});
+
 document.addEventListener("DOMContentLoaded", function() {
     document.querySelector('.tr-button').addEventListener('click', function() {
         setLanguage('tr');
@@ -146,6 +177,8 @@ document.addEventListener("DOMContentLoaded", function() {
             'contactus':'contact us at: ',
             'company':'company',
 
+            'braclets-h5-1':'From ears to nose, these accessories create a memorable impression and showcase individuality with confidence.',
+
             
         },
         tr: {
@@ -178,6 +211,8 @@ document.addEventListener("DOMContentLoaded", function() {
             'follow':'Bizi takip edin: ',
             'contactus':'bizimle iletişime geçin: ',
             'company':'şirket',
+            'braclets-h5-1':'Kulaktan buruna kadar uzanan bu aksesuarlar, akılda kalıcı bir izlenim yaratıyor ve özgüvenle bireyselliğinizi ortaya koyuyor.',
+
 
 
 

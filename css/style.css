@@ -977,7 +977,36 @@ a{
 .mobile-img2{
   display: none;
 }
+.braclets-h5-1{
+ display: none;
+}
+.mobile-p{
+  display: none;
+}
+.circle{
+  display: none;
+}
 @media only screen and (max-width:768px){
+  .circle{
+    position: fixed;
+    bottom: 8vh;
+    right: 0;
+    width: 18%;
+    height: 8%;
+    display: block;
+    border-radius: 100%;
+    z-index: 12;
+    opacity: 0;
+    clip-path: inset(0 0 0 100%);
+    transition: ease all 1.8s;
+  }
+  .circle-insta{
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    margin-top: 15%;
+    margin-left: 15%;
+  }
 
   .navigator{
     height: 25vw;
@@ -1441,6 +1470,15 @@ a{
   font-size: 2vh;
   color: #ffffffaf;
 }
+.braclets-h5-1{
+  font-size: 2vh;
+  color: #ffffffaf;
+  display: block;
+  text-align: justify;
+  width: 70%;
+  margin-left: 15%;
+  font-weight: 300;
+}
 .braclets-btt{
   font-size: 2vh;
   height: 15%;
@@ -1471,6 +1509,7 @@ a{
   height: 60%;
   object-fit: cover;
   margin-top: 15%;
+  display: block;
 
 
 }
