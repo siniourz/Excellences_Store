@@ -493,3 +493,184 @@ body{
     height: 100%;
 
 }
+.mobile{
+  display: none;
+}
+@media only screen and (max-width:768px){
+  .navigator{
+    height: 25vw;
+    z-index: 14;
+    position: relative;
+  }
+  nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 15vw;
+    background-color: #ffffff;
+    opacity: 0;
+    clip-path: inset(100% 0 0 0);
+    transition: ease-in 0.8s;
+    z-index: 20;
+   
+    
+  }
+  ul{
+    text-align: center;
+    margin-left: 18%;
+    gap: 10px;
+    color: #fff;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    
+  }
+  nav ul li a{
+    font-size: 3vw;
+    color: #1a1a1a;
+    
+
+  }
+  .mobile{
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin-left: 15%;
+    
+  }
+  .small-line{
+    display: none;
+  }
+  .background{
+    width: 100%;
+    height: 120vw;
+    
+  }
+  .excellences_box{
+    width: 50%;
+    left: 0;
+    
+  }
+  .text{
+    font-size: 10vw;
+    float: left;
+    
+
+  }
+.search_bar_container{
+  display: none;
+}
+.languages{
+  border-radius: 0;
+  width: 30%;
+  margin-left: -15% ;
+  margin-top: 12%;
+  height: 50%;
+  font-size: 5vw;
+  color: #fff;
+  
+}
+.tr-button,.en-button{
+  font-size: 3vw;
+  margin-top  : 6vw;
+  margin-right:5vw ;
+  border-radius: 0;
+  height: 100%;
+  text-decoration: underline;
+}
+.first-part{
+  width: 100%;
+  height: 90vh;
+}
+.bracletsVideo{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.video-cover{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.second-part{
+ width: 100%;
+ height: 90vh;
+ margin: 0;
+ display: block;
+ background-color: rgb(199, 179, 182);
+}
+.box-left{
+  width: 100%;
+  height: 50%;
+}
+.right-box{
+  width: 100%;
+  height: 40%;
+  margin: 0;
+}
+.Braclets-h1{
+  font-size: 15vw;
+  margin: 0;
+  margin-top: 2%;
+}
+.bracletsfemale{
+  font-size: 12vw;
+  margin-left: 0;
+  width: 90%;
+  text-align: center;
+  margin-left: 5%;
+}
+.braclets-info{
+  font-size: 4vw;
+}
+.braclets-btt{
+  height: 12%;
+  font-size: 4vw;
+  margin-top: -5%;
+}
+.male-part{
+  width: 100%;
+  height: 90vh;
+  margin-top: 90vh;
+  display: block;
+}
+.m-img{
+  width: 100%;
+  height: 60%;
+  margin: 0;
+}
+.males-text{
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  top: 245vh;
+  z-index: 4;
+
+}
+.bracletsm-btt{
+  height: 12%;
+  font-size: 4vw;
+  margin-top: -5%;
+}
+.fourth-part{
+  width: 100%;
+  height: 120vh;
+  margin: 0;
+  display: block;
+}
+.left-box{
+  width: 100%;
+  height: 60%;
+  margin: 0;
+}
+.right-box{
+  width: 100%;
+  height: 40%;
+  margin: 0;
+}
+.third-part{
+  display: none;
+}
+
+
+
+}
