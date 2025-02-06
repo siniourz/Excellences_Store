@@ -644,8 +644,9 @@ body{
   }
   .n-h2{
     font-size: 5vh;
-    width: 50%;
+    width: 80%;
     letter-spacing: 40%;
+    margin-left:10%;
   
   }
   .n-h3{
