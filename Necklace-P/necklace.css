@@ -592,7 +592,9 @@ body{
     width: 90%;
     text-align: center;
     margin-left: 5%;
-    font-size: 6vh;
+    font-size: 5vh;
+    letter-spacing: 40%;
+
   }
   .n-h3{
     width: 90%;
@@ -641,7 +643,10 @@ body{
 
   }
   .n-h2{
-    font-size: 6vh;
+    font-size: 5vh;
+    width: 50%;
+    letter-spacing: 40%;
+  
   }
   .n-h3{
     font-size: 2vh;
