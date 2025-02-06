@@ -41,6 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             'einfo':'Unleash your inner elegance with our exquisite earrings. Designed to capture attention, these timeless pieces add a touch of sophistication to any outfit, making you shine with grace and style. Perfect for those who seek beauty in every detail.',
             'ebtt':'Show All The Earrings',
+            'error':'In case of any conflict, Refresh the page.',
 
 
 
@@ -63,6 +64,7 @@ document.addEventListener("DOMContentLoaded", function() {
             'company':'şirket',
             'einfo':'Zarif küpelerimizle içinizdeki zarafeti ortaya çıkarın. Dikkat çekmek için tasarlanan bu zamansız parçalar, her kıyafete bir sofistike dokunuş katarak zarafet ve stilinizle parlamanızı sağlar. Her ayrıntıda güzellik arayanlar için mükemmeldir.',
             'ebtt':'Tüm Küpeleri Göster',
+            'error':'Herhangi bir çakışma durumunda, Sayfayı yenileyin',
 
 
 
@@ -90,16 +92,17 @@ window.addEventListener('scroll', () => {
   if (scrollTop > 85) {
     navbar.style.position = 'fixed';
     navbar.style.top = '0vw';
-    navbar.display='block';
-
+    
     if (scrollElement) {
       scrollElement.style.opacity = '0';
       navbar.display='block';
+      navbar.style.marginTop='0';
 
     }
   } else {
     navbar.style.position = 'absolute';
-    navbar.style.top = '6.8vw';
+    navbar.style.top = '10.8vw';
+    navbar.style.marginTop='0vh';
   }
 });
 

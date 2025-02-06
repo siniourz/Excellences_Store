@@ -132,7 +132,7 @@ body{
     height: 5vw;
     background-color: #1a1a1a;
     margin: 0;
-    margin-top: 0%;
+    margin-top: 4vh;
     position: absolute;
     display: flex;
     z-index: 10;
@@ -289,7 +289,7 @@ body{
     width: 100%;
     height: 40vw;
     position: absolute;
-    top: 20%;
+    top: 24%;
     background-color: #1a1a1a;
     z-index: 5;
     display: flex;
@@ -526,6 +526,35 @@ body{
   .shopier:hover{
     text-decoration: underline;
   }
+  .mobile{
+    display: none;
+  }
+  body{
+    margin-top: 4vh;
+  }
+  .error-div{
+    width: 100%;
+    height: 4vh;
+    position: absolute;
+    top: 0vh;
+    background-color: #3a3a3a;
+    z-index: 14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+ 
+  .error-h6{
+    width: 100%;
+    height: 50%;
+    font-size: 2vh;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+
+  }
   @media only screen and (max-width:768px){
     .navigator{
       height: 25vw;
@@ -546,7 +575,7 @@ body{
     }
     ul{
       text-align: center;
-      margin-left: 20%;
+      margin-left: 16%;
       gap: 10px;
       color: #fff;
       background-color: #ffffff;
