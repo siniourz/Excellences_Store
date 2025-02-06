@@ -537,8 +537,8 @@ body{
       height: 15vw;
       background-color: #ffffff;
       opacity: 0;
-      clip-path: inset(0 100% 0 0);
-      transition: ease all 0.8s;
+      clip-path: inset(100% 0 0 0);
+      transition: ease-in all 0.8s;
       
     }
     ul{
