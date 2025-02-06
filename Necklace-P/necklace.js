@@ -1,39 +1,68 @@
-let hasScrolledDown = false;  
+let hasScrolledDown = false;
 
 window.addEventListener('scroll', () => {
-    if (hasScrolledDown) return;  
+  // Only execute if the viewport width is more than 768px
+  if (window.innerWidth <= 768) return;
+  
+  if (hasScrolledDown) return;
 
-    const sign1=document.querySelector('.sign1');
-    const navbar=document.querySelector('nav');
+  
+  const navbar = document.querySelector('nav');
+
+  // Adjust the following if your intended element is not named ".scroll"
+  const scrollElement = document.querySelector('.scroll');
+
+  const scrollTop = window.scrollY;
+
+  if (scrollTop > 85) {
+    navbar.style.position = 'fixed';
+    navbar.style.top = '0vw';
+    navbar.display='block';
+
+    if (scrollElement) {
+      scrollElement.style.opacity = '0';
+      navbar.display='block';
+
+    }
+  } else {
+    navbar.style.position = 'absolute';
+    navbar.style.top = '6.8vw';
+  }
+});
 
 
 
 
 
-    const scrollTop = window.scrollY;
+let hasScrolledDow = false;
 
-    if (scrollTop > 85) {
+window.addEventListener('scroll', () => {
+  // Only execute if the viewport width is more than 768px
+  if (window.innerWidth >= 768) return;
+  
+  if (hasScrolledDow) return;
 
-        navbar.style.position='fixed';
-        navbar.style.top='0vw';
-      
+  
+  const navbar = document.querySelector('nav');
 
+  // Adjust the following if your intended element is not named ".scroll"
+  const scrollElement = document.querySelector('.scroll');
 
-    
-        scroll.style.opacity='0';
+  const scrollTop = window.scrollY;
 
+  if (scrollTop > 85) {
+    navbar.style.opacity='1';
+    navbar.style.clipPath='inset(0 0 0 0)';
 
-    
+    if (scrollElement) {
+      navbar.style.opacity='1';
+      navbar.style.clipPath='inset(0 0 0 0)';
 
 
     }
-    else {
-        navbar.style.position='absolute';
-        navbar.style.top='6.8vw';
-        
-    }
-    
-
+  } else {
+ 
+  }
 });
 
 
