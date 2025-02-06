@@ -1242,7 +1242,7 @@ a{
   .show-square .square{
     opacity: 1;
     overflow: hidden;
-    transition: all ease 2.5s;
+    transition: all ease 2s;
     clip-path: inset(0 0 0 0);
   
   }
