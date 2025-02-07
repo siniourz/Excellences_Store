@@ -189,7 +189,7 @@ body{
     width: 100%;
     height: 100%;
     margin: 0;
-    object-fit: cover;
+    object-fit: contain;
 }
 .necklace-h1{
     width: 100%;
@@ -198,9 +198,10 @@ body{
     color: #ffffff;
     font-size: 10vw;
     position: absolute;
-    top: 25%;
+    top: 47%;
     letter-spacing: 4vw;
     z-index: 3;
+    mix-blend-mode: difference;
 }
 .second-bg{
     width: 100%;
