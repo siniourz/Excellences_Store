@@ -513,6 +513,7 @@ body{
     .small-line{
       display: none;
     }
+
     .background{
       width: 100%;
       height: 120vw;
@@ -558,7 +559,10 @@ body{
     height: 70vh;
   }
 
+.necklace-h1{
+  top: 40vh;
 
+}
  
   .second-bg{
     width: 100%;
