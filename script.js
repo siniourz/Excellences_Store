@@ -122,7 +122,14 @@ window.addEventListener('scroll', () => {
  
   }
 });
+//alert message
+document.addEventListener("DOMContentLoaded", function(){
+    document.querySelector('.search_text').addEventListener('click', function(){
+        alert("Sorry, Not available right now");
+    })
+});
 
+//till here
 document.addEventListener("DOMContentLoaded", function() {
     document.querySelector('.tr-button').addEventListener('click', function() {
         setLanguage('tr');
@@ -383,5 +390,6 @@ window.addEventListener('scroll', function() {
         fourthPart.classList.add('show-mobileimg');
     }
 });
+
 
 

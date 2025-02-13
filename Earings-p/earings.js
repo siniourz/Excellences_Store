@@ -143,3 +143,11 @@ window.addEventListener('scroll', () => {
 document.querySelectorAll("a").forEach(link => {
     link.href = link.href.replace(".html", "");
 });
+//alert message
+document.addEventListener("DOMContentLoaded", function(){
+  document.querySelector('.search_text').addEventListener('click', function(){
+      alert("Sorry, Not available right now");
+  })
+});
+
+//till here

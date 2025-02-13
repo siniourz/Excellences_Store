@@ -165,3 +165,11 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     };    
 });
+//alert message
+document.addEventListener("DOMContentLoaded", function(){
+  document.querySelector('.search_text').addEventListener('click', function(){
+      alert("Sorry, Not available right now");
+  })
+});
+
+//till here
