@@ -115,11 +115,13 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     };    
 });
-//alert message
-document.addEventListener("DOMContentLoaded", function(){
-    document.querySelector('.search_text').addEventListener('click', function(){
-        alert("Sorry, Not available right now");
-    })
-});
 
-//till here
+
+
+function pm(){
+    alert("Sorry, now available right now! "+"still working on that ...");
+}
+
+document.addEventListener("DOMContentLoaded", function(){
+    document.querySelector('.search_text').onclick=pm;
+})
