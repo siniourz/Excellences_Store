@@ -125,7 +125,7 @@ window.addEventListener('scroll', () => {
 //alert message
 document.addEventListener("DOMContentLoaded", function(){
     document.querySelector('.search_text').addEventListener('click', function(){
-        alert("Sorry, Not available right now");
+        alert("We are still working on this feature. Please check back later.");
     })
 });
 
